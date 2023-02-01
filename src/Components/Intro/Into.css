@@ -1,0 +1,125 @@
+*{
+    font-family: "Roboto";
+}
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    background-color: rgb(249, 250, 252);
+    
+  }
+  header{
+      background-color: rgb(244, 247, 250);
+      position: relative;
+      
+  }
+  /* La barre de navigation */
+  .navbar{
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(234, 235, 236);
+      border-radius: 50px;
+      align-items: center;
+      box-shadow: rgb(163, 80, 80);
+  
+  
+  }
+  
+  .logo{
+      display: flex;
+      margin-left: 3s0px;
+      margin-bottom: 50px;
+  }
+  h2>span{
+      margin-bottom: 20px;
+       font-size: 2rem;
+       font-weight: 900;
+      color: #FCA61F;
+  
+       
+  }
+  .nav>ul{
+      gap: 1rem;
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 0.5rem;
+      margin-bottom: 30px;
+  }
+  .contact{
+      margin-bottom: 30px;
+      font-weight: 500;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      font-size: 13px;
+      padding: 11px 26px 11px 26px;
+      background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+      box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  }
+  .contact:hover{
+    background: white;
+      cursor: pointer;
+      color: #FCA61F;
+      border: 1px solid #FCA61F;
+  }
+  .login>button{
+      font-size: 1.3rem;
+      font-weight: 500;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 11px 26px 11px 26px;
+      background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+      box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  }
+  
+  .login>button:hover{
+      background: white;
+      cursor: pointer;
+      color: #FCA61F;
+      border: 1px solid #FCA61F;
+    }
+    .loginf{
+        left: -7rem;
+        margin-bottom: 70px;
+        display: flex;
+      
+    }
+
+    .forme{
+        display: flex;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: 50px;
+        border: none;
+    }
+
+    .Seach{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-weight: 200;
+        border: none;
+        font-size: 1rem;
+        color: white;
+        font-size: 7px;
+        padding: 11px 26px 11px 26px;
+        background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+        box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    }
+
+    .Seach:hover{
+        background: white;
+          cursor: pointer;
+          color: #FCA61F;
+          border: 1px solid #FCA61F;
+      }

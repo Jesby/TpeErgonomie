@@ -1,0 +1,144 @@
+*{
+    font-family: "Roboto";
+    
+}
+.contact-form{
+    margin-top: 250px;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-bottom: -7rem;
+    
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    
+}
+
+.c-right>form{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border : 2px solid #FCA61F;
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 4rem!important;
+}
+@media screen  and (max-width:480px){
+    .travail{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .brillant{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .contact-form{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .c-right{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    
+}
+
+.w-right{
+    position: relative;
+}
+.w-mainCircle{
+    width: 18rem;
+    height: 18rem;
+    left: 9rem;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: rgb(163, 80, 80);
+    top: 2rem;
+    background: #c4dbdb;
+}
+
+.w-mainCircle>*{
+    position: absolute;
+}
+
+.w-mainCircle> :nth-child(1)
+{
+    top: -3.5rem;
+    left: 5rem;
+    transform: scale(0.7);
+}
+.w-mainCircle> :nth-child(2)
+{
+    left: -3rem;
+    top: 5rem;
+    transform: scale(0.7);
+}
+.w-mainCircle> :nth-child(3)
+{
+      left: 6rem;
+     top: 5rem;
+     transform: scale(0.2);
+}
+.w-mainCircle> :nth-child(4)
+{
+    left: 15rem;
+    top: 5rem;
+    transform: scale(1);
+}
+.w-mainCircle> :nth-child(5)
+{
+    left: 6rem;
+    top: 15rem;
+    transform: scale(1);
+}
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ccdada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: #e7ecec;
+}
+.w-secCircle >img{
+    transform: scale(0.8);
+}
+.w-backCircle{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCerle{
+    background: #4e3dad;
+    left: 18rem;
+    top: 0rem;
+}
+.yelowCercle{
+    background: #3b3b3a;
+    left: 18rem;
+    top: 8rem;
+}

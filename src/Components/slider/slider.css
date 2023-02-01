@@ -1,0 +1,44 @@
+*{
+  font-family: "Roboto";
+}
+.slider{
+ 
+  background-image: linear-gradient(rgb(199, 205, 216),rgb(249, 250, 252));
+  
+}
+
+.carousel{
+          margin-top: 50px;
+          width: 500px;
+          height: 500px;
+          margin-left: 30%;
+          border : 3px solid #FCA61F;
+          border-radius: 20px;
+          box-shadow: 0 19px 38px rgba(252, 252, 252, 0.1), 0 15px 12px rgba(0,0,0,0.02);
+}
+
+.image{
+  margin-left: 180px;
+}
+
+.titre{
+   margin-left: 10px;
+   color: #FCA61F;
+}
+.text{
+   margin-right: 60px;
+}
+.texte{
+  margin-top: 60px;
+  margin-left: 500px;
+  background-color: #FCA61F;
+  border-radius: 5px;
+  color: white;
+}
+
+.slider>*{
+  display: flex;
+}
+.para{
+  color: black;
+}

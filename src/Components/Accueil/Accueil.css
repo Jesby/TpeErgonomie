@@ -1,0 +1,139 @@
+*{
+  font-family: "Roboto";
+}
+/* Introduction */
+body{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+  background-color: rgb(249, 250, 252); 
+}
+.intro{
+    display: flex;
+      height: 77vh;
+      margin-top: 6rem;
+      margin-right: 100px;   
+  }
+   /* Slider gauche  */
+  .nintro{
+      display: flex; 
+      flex: 1; 
+      
+      color: black;
+      position: relative;
+  }
+  .nintro>*{
+    position: absolute;
+      z-index: 1;
+      margin-left: 60px;
+  }
+  
+  .blur{
+    position: absolute;
+    width: 17rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #d8b7ec;
+    z-index: -9;
+    top: -8%;
+    left: 30%;
+    filter: blur(72px)
+  }
+  .img1{
+      font-size: 1rem;
+      font-weight: 250;
+      left: 95px;
+      width: 250px;
+      height: 70px;
+      border-radius: 30px;
+      background-color: white;
+  }
+  .img1>img{
+       transform: scale(0.4);
+       margin-top: -30px;
+       margin-left: -15px;
+  }
+  
+  .img1>h4{
+    margin-top: -80px;
+    margin-left: 75px;
+    font-size: 1rem;
+  
+  }
+  .blur1{
+    position: absolute;
+    width: 17rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #ebcd47;
+    z-index: -9;
+    top: 260px;
+    left: 450px;
+    filter: blur(72px)
+  }
+  .img2{
+    left: 350px;
+    top: 310px;
+    width: 250px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .img2>img{
+     transform: scale(0.4);
+     margin-top: -30px;
+     margin-left: -20px;
+  }
+  
+  .img2>h4{
+  margin-top: -82px;
+  margin-left: 80px;
+  font-size: 1.2rem;
+  
+  }
+  
+  .img{
+      display: flex;
+      
+  }
+  
+  .img>img{
+     justify-content: center;
+     width: 500px;
+     height: 600px;
+     margin-left: 40px;
+     
+  }
+  
+  /* Slider droit */
+  
+  .mintro{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+    gap: 2rem;
+    
+  }
+  .blur2{
+    position: absolute;
+    width: 17rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #ebcd47;
+    z-index: -9;
+    top: 200px;
+    left: 320px;
+    filter: blur(72px)
+  }
+  .text{
+      margin-left: 100px;
+  }
+  .text>span{
+    color: #fb982f;
+  }
+  

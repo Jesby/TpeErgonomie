@@ -1,0 +1,65 @@
+*{
+    font-family: "Roboto";
+}
+
+
+.services{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 200px;
+    position: relative;
+    background-image: linear-gradient(rgb(234, 235, 236)rgb(199, 205, 216));
+}
+.services>*{
+    display: flex;
+    position: static;
+}
+ .titre{
+        display: flex;
+        font-size: 3rem;
+        align-self: center;
+        justify-content: center;
+        font-weight: 500;
+ }
+ .titre>span{
+    font-size: 3rem;
+    display: flex;
+}
+.titlecard {
+    color: #f0810a;
+    font-style: italic;
+    font-weight: 800;
+}
+.titre:nth-child(1){
+    margin-left: -20px;
+}
+.titre:nth-child(2){
+    margin-right: 40px;
+}
+
+.photo{
+    transform: scale(0.9);
+    width: 260px;
+    height: 200px;
+    
+}
+
+.bodycards{
+    transform: scale(0.9);
+   
+}
+
+.letext{
+ height: auto;
+ color: black;
+
+ font-size: 1rem;
+}
+
+.group{
+     justify-content: space-between;
+}
+
+.gcard{
+    transform: scale(0.9);
+}

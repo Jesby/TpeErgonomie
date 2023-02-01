@@ -1,0 +1,17 @@
+body{
+   
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+
+}
+.temoin{
+    width: 99.5%;
+    height: 80vh;
+        margin-top: 200px;
+        position: relative;
+        justify-content: space-between;
+        background-image: linear-gradient(rgb(249, 250, 252),#ebcd47);
+        
+        
+    }

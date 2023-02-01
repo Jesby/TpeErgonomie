@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 200px;
+    position: relative;
+     width: 100%;
+     height: 50px;
+     background-color: #FCA61F;
+}
+
+.textee{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 45%;
+    color: white;
+}
